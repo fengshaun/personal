@@ -1,0 +1,13 @@
+EXECUTABLE=demo
+LIBS=-ldl -lboost_filesystem -lpluginmanager -L/home/armin/src/shared_lib_demo/libs
+INCLUDES=-I/home/armin/src/shared_lib_demo/includes
+OBJECTS=main.o
+
+all: $(OBJECTS)
+	g++ $(OBJECTS) $(LIBS) -o $(EXECUTABLE)
+	
+main.o: main.cpp
+	g++ -c main.cpp $(INCLUDES)
+
+clean:
+	rm -rf *.o $(EXECUTABLE)

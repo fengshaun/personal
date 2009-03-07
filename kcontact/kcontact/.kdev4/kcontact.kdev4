@@ -1,0 +1,21 @@
+[Buildset]
+Number of Builditems=1
+
+[Buildset][Builditem0]
+Itemname=kcontact
+Itempath=./
+Projectname=kcontact
+
+[CMake]
+BuildDirs[$e]=$HOME/src/kcontact/kcontact/build/
+CMakeDir=/usr/share/cmake/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/armin/src/kcontact/kcontact/build/
+CurrentInstallDir=file:///home/armin/kcontact-bin
+ProjectRootRelative=./
+
+[Run Options]
+Run Targets=kconatct
+
+[kconatct-Run Options]
+Executable=file:///home/armin/kcontact-bin/bin/kcontact

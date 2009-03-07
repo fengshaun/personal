@@ -1,0 +1,108 @@
+================ Simpletron ===============
+
+Simpletron is a basic interpreter for SML ( Simpletron Machine Language ).  It
+can be used to interpret files written in SML with extension .sml.  For examples of
+SML instructions refer to "source" directory inside this folder.
+
+
+================== How To =================
+
+there are many different instruction that can be used to write SML programs. 
+They are as follows
+
+10   to READ an integer
+11   to PRINT an integer
+
+20   to LOAD an integer
+21   to STORE an integer
+
+30   to BRANCH to a specific location in memory
+31   to BRANCH if accumulator is 0
+32   to BRANCH if accumulator is a negative number
+
+9999 to END the execution of the program
+
+the instructions above are for the general usage of SML.  More specific extensions
+are also available for Simpletron such as a calculator.  The instructions you might use
+are as follows
+
+10  to ADD         (double)
+11  to SUBTRACT    (double)
+12  to DIVIDE      (double)
+13  to MULTIPLY    (double)
+14  POWER          (double)
+15  SQUARE ROOT    (single)
+
+20  PERMUTATION    (double)
+21  COMBINATION    (double)
+22  FACTORIAL      (single)
+
+30  SIN            (single)
+31  COS            (single)
+32  TAN            (single)
+
+40  RANDOM NUMBER  (no_argument)
+41  RANDOM DICE    (no_argument)
+
+
+Single-argument commands (single):
+
+to use these specific extensions, you need to type a prefix and then the instruction.
+For example, the prefix/section number for calculator is 1.  Therefore, if you want to
+calculate the factorial of a number which is in position 21 of memory, you would use
+this command
+
+12221
+
+the '1' in the beginning of this code tells the interpreter to use the calculator extension.
+the section number is then followed by the instruction, which in this case, is '42'.  
+the instruction 36 in the extension 1 ( which is calculator ) tells the interpreter that
+you want to get the FACTORIAL of a number.  Now you have to specify what number you
+want to get the factorial of.  To do this, you have to give a location reference that
+the number is stored in, which in this case, is location 21.
+
+It's done!  you just took the factorial of a number!
+
+Please note that for no_argument commands, you can treat it as a single argument command, but for safety reasons, it's better to include 00 as location reference.
+
+Double-argument commands (double):
+
+Now that you know how to use single-argument commands ( taking only 1 argument ) it's 
+time to move on to commands that need 2 arguments, such as multiplication.
+
+In order to use the double-argumented commands, you have to load the first argument
+using instruction 20 (see above) and then address the second argument using a location
+reference.
+
+Assuming that we have a number saved on location 97 of memory and another saved on 
+location 24 that we want to multiply:
+
+2097
+11324
+
+Note that for the first statement, we could use 02097 for consistency, but it's not 
+needed.
+
+Now the first statement LOADs the integer located at position 97 of memory.  It loads it
+into the register-like memory.  Now, we multiply that loaded number with another number
+using the second statement, 11324.  1 is the extension number for calculator, 33 is 
+the instruction code for multiplication, and 24 is the location reference to the second
+argument of multiplication (13).
+
+
+Congratulations!  You can now go ahead and write your own programs!  for more examples
+refer to 'source' directory in this folder.
+
+And don't forget to Have Fun! :-)
+
+====================== Information about the interpreter ======================
+Memory: 100 locations (01-99, 00 for NULL location reference)
+Processing capabilities: only numbers
+
+
+====================== Miscellaneos Options ===================================
++settings constants ( e.g. pi ) in a specific location:
+   10001
+   1   (section number -> CALCULATOR)
+   00  (SET_CONSTANT function)
+   01  (location of the constant)

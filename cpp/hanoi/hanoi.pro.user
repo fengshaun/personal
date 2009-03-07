@@ -1,0 +1,360 @@
+<!DOCTYPE QtCreatorProject>
+<qtcreator>
+ <data>
+  <variable>RunConfiguration0-CommandLineArguments</variable>
+  <valuelist type="QVariantList" />
+ </data>
+ <data>
+  <variable>RunConfiguration0-ProFile</variable>
+  <value type="QString" >/home/armin/src/hanoi/hanoi.pro</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-RunConfiguration.name</variable>
+  <value type="QString" >hanoi</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-UserSetName</variable>
+  <value type="bool" >false</value>
+ </data>
+ <data>
+  <variable>RunConfiguration0-type</variable>
+  <value type="QString" >Qt4ProjectManager.Qt4RunConfiguration</value>
+ </data>
+ <data>
+  <variable>activeRunConfiguration</variable>
+  <value type="int" >0</value>
+ </data>
+ <data>
+  <variable>activebuildconfiguration</variable>
+  <value type="QString" >debug</value>
+ </data>
+ <data>
+  <variable>buildConfiguration-debug</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >debug</value>
+   <value key="QtVersionId" type="int" >0</value>
+   <value key="addQDumper" type="" ></value>
+   <value key="buildDirectory" type="QString" >/home/armin/src/hanoi</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildConfiguration-release</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >release</value>
+   <value key="QtVersionId" type="int" >0</value>
+   <value key="addQDumper" type="" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-debug-buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >debug</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-debug-buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >COLORFGBG=15;0</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-gzdAEnekRE,guid=2f1ef2f37c97d336faa670fa494fcf61</value>
+    <value type="QString" >DESKTOP_SESSION=kde</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISABLE_IMSETTINGS=1</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString" >DRY_RUN=1</value>
+    <value type="QString" >GNOME_KEYRING_PID=2453</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-lviAkd/socket</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/gpg-CtOcmB/S.gpg-agent:2725:1</value>
+    <value type="QString" >GS_LIB=/home/armin/.fonts</value>
+    <value type="QString" >GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/armin/.gtkrc-2.0::/home/armin/.kde/share/config/gtkrc-2.0</value>
+    <value type="QString" >GTK_IM_MODULE=gtk-im-context-simple</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/armin/.gtkrc::/home/armin/.kde/share/config/gtkrc</value>
+    <value type="QString" >G_BROKEN_FILENAMES=1</value>
+    <value type="QString" >HISTSIZE=1000</value>
+    <value type="QString" >HOME=/home/armin</value>
+    <value type="QString" >HOSTNAME=blk-224-129-4.eastlink.ca</value>
+    <value type="QString" >INPUTRC=/etc/inputrc</value>
+    <value type="QString" >KDEDIRS=/home/armin/kdevelop:/usr</value>
+    <value type="QString" >KDE_FULL_SESSION=true</value>
+    <value type="QString" >KDE_IS_PRELINKED=1</value>
+    <value type="QString" >KDE_MULTIHEAD=false</value>
+    <value type="QString" >KDE_SESSION_UID=500</value>
+    <value type="QString" >KDE_SESSION_VERSION=4</value>
+    <value type="QString" >KONSOLE_DBUS_SERVICE=:1.183</value>
+    <value type="QString" >KONSOLE_DBUS_SESSION=/Sessions/1</value>
+    <value type="QString" >LANG=en_US.UTF-8</value>
+    <value type="QString" >LANGUAGE=en_US</value>
+    <value type="QString" >LC_NUMERIC=C</value>
+    <value type="QString" >LESSOPEN=|/usr/bin/lesspipe.sh %s</value>
+    <value type="QString" >LOGNAME=armin</value>
+    <value type="QString" >LS_COLORS=no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:do=00;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=00;32:*.tar=00;31:*.tgz=00;31:*.svgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.dz=00;31:*.gz=00;31:*.bz2=00;31:*.tbz2=00;31:*.bz=00;31:*.tz=00;31:*.deb=00;31:*.rpm=00;31:*.jar=00;31:*.rar=00;31:*.ace=00;31:*.zoo=00;31:*.cpio=00;31:*.7z=00;31:*.rz=00;31:*.jpg=00;35:*.jpeg=00;35:*.gif=00;35:*.bmp=00;35:*.pbm=00;35:*.pgm=00;35:*.ppm=00;35:*.tga=00;35:*.xbm=00;35:*.xpm=00;35:*.tif=00;35:*.tiff=00;35:*.png=00;35:*.mng=00;35:*.pcx=00;35:*.mov=00;35:*.mpg=00;35:*.mpeg=00;35:*.m2v=00;35:*.mkv=00;35:*.ogm=00;35:*.mp4=00;35:*.m4v=00;35:*.mp4v=00;35:*.vob=00;35:*.qt=00;35:*.nuv=00;35:*.wmv=00;35:*.asf=00;35:*.rm=00;35:*.rmvb=00;35:*.flc=00;35:*.avi=00;35:*.fli=00;35:*.gl=00;35:*.dl=00;35:*.xcf=00;35:*.xwd=00;35:*.yuv=00;35:*.svg=00;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</value>
+    <value type="QString" >MAIL=/var/spool/mail/armin</value>
+    <value type="QString" >MALLOC_CHECK_=2</value>
+    <value type="QString" >PATH=/usr/lib64/qt4/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/local/sbin:/usr/sbin:/sbin:/home/armin/kdevelop/bin:/home/armin/bin:/home/armin/kdevelop/bin</value>
+    <value type="QString" >PROFILEHOME=</value>
+    <value type="QString" >PWD=/home/armin/qtcreator/bin</value>
+    <value type="QString" >QTDIR=/usr</value>
+    <value type="QString" >QTINC=/usr/lib64/qt-3.3/include</value>
+    <value type="QString" >QTLIB=/usr/lib64/qt-3.3/lib</value>
+    <value type="QString" >QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/home/armin/.kde/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/</value>
+    <value type="QString" >SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2813,unix/unix:/tmp/.ICE-unix/2813</value>
+    <value type="QString" >SHELL=/bin/bash</value>
+    <value type="QString" >SHLVL=4</value>
+    <value type="QString" >SSH_AGENT_PID=2658</value>
+    <value type="QString" >SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/ssh-oFRbPB2455/agent.2455</value>
+    <value type="QString" >TERM=xterm</value>
+    <value type="QString" >USER=armin</value>
+    <value type="QString" >WINDOWID=31457282</value>
+    <value type="QString" >WINDOWPATH=1</value>
+    <value type="QString" >XCURSOR_THEME=default</value>
+    <value type="QString" >XDG_DATA_DIRS=/usr/share/kde-settings/kde-profile/default/share:/usr/local/share:/usr/share</value>
+    <value type="QString" >XDG_MENU_PREFIX=kde4-</value>
+    <value type="QString" >XDG_SESSION_COOKIE=2cda6ede5142b36d01097da74939cec6-1229967200.525501-1839609732</value>
+    <value type="QString" >XDM_MANAGED=method=classic</value>
+    <value type="QString" >XMODIFIERS=@im=none</value>
+    <value type="QString" >_=/home/armin/qtcreator//bin/qtcreator</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >/home/armin/src/hanoi/hanoi.pro</value>
+    <value type="QString" >-spec</value>
+    <value type="QString" >/usr/lib64/qt4/mkspecs/linux-g++-64</value>
+    <value type="QString" >-r</value>
+    <value type="QString" >CONFIG+=debug_and_release</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/qmake-qt4</value>
+   <value key="abstractProcess.enabled" type="bool" >false</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/home/armin/src/hanoi</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-debug-buildstep2</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >COLORFGBG=15;0</value>
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-gzdAEnekRE,guid=2f1ef2f37c97d336faa670fa494fcf61</value>
+    <value type="QString" >DESKTOP_SESSION=kde</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISABLE_IMSETTINGS=1</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >DM_CONTROL=/var/run/xdmctl</value>
+    <value type="QString" >DRY_RUN=1</value>
+    <value type="QString" >GNOME_KEYRING_PID=2453</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-lviAkd/socket</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/gpg-CtOcmB/S.gpg-agent:2725:1</value>
+    <value type="QString" >GS_LIB=/home/armin/.fonts</value>
+    <value type="QString" >GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/armin/.gtkrc-2.0::/home/armin/.kde/share/config/gtkrc-2.0</value>
+    <value type="QString" >GTK_IM_MODULE=gtk-im-context-simple</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/armin/.gtkrc::/home/armin/.kde/share/config/gtkrc</value>
+    <value type="QString" >G_BROKEN_FILENAMES=1</value>
+    <value type="QString" >HISTSIZE=1000</value>
+    <value type="QString" >HOME=/home/armin</value>
+    <value type="QString" >HOSTNAME=blk-224-129-4.eastlink.ca</value>
+    <value type="QString" >INPUTRC=/etc/inputrc</value>
+    <value type="QString" >KDEDIRS=/home/armin/kdevelop:/usr</value>
+    <value type="QString" >KDE_FULL_SESSION=true</value>
+    <value type="QString" >KDE_IS_PRELINKED=1</value>
+    <value type="QString" >KDE_MULTIHEAD=false</value>
+    <value type="QString" >KDE_SESSION_UID=500</value>
+    <value type="QString" >KDE_SESSION_VERSION=4</value>
+    <value type="QString" >KONSOLE_DBUS_SERVICE=:1.183</value>
+    <value type="QString" >KONSOLE_DBUS_SESSION=/Sessions/1</value>
+    <value type="QString" >LANG=en_US.UTF-8</value>
+    <value type="QString" >LANGUAGE=en_US</value>
+    <value type="QString" >LC_NUMERIC=C</value>
+    <value type="QString" >LESSOPEN=|/usr/bin/lesspipe.sh %s</value>
+    <value type="QString" >LOGNAME=armin</value>
+    <value type="QString" >LS_COLORS=no=00:fi=00:di=00;34:ln=00;36:pi=40;33:so=00;35:do=00;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=01;05;37;41:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=00;32:*.tar=00;31:*.tgz=00;31:*.svgz=00;31:*.arj=00;31:*.taz=00;31:*.lzh=00;31:*.lzma=00;31:*.zip=00;31:*.z=00;31:*.Z=00;31:*.dz=00;31:*.gz=00;31:*.bz2=00;31:*.tbz2=00;31:*.bz=00;31:*.tz=00;31:*.deb=00;31:*.rpm=00;31:*.jar=00;31:*.rar=00;31:*.ace=00;31:*.zoo=00;31:*.cpio=00;31:*.7z=00;31:*.rz=00;31:*.jpg=00;35:*.jpeg=00;35:*.gif=00;35:*.bmp=00;35:*.pbm=00;35:*.pgm=00;35:*.ppm=00;35:*.tga=00;35:*.xbm=00;35:*.xpm=00;35:*.tif=00;35:*.tiff=00;35:*.png=00;35:*.mng=00;35:*.pcx=00;35:*.mov=00;35:*.mpg=00;35:*.mpeg=00;35:*.m2v=00;35:*.mkv=00;35:*.ogm=00;35:*.mp4=00;35:*.m4v=00;35:*.mp4v=00;35:*.vob=00;35:*.qt=00;35:*.nuv=00;35:*.wmv=00;35:*.asf=00;35:*.rm=00;35:*.rmvb=00;35:*.flc=00;35:*.avi=00;35:*.fli=00;35:*.gl=00;35:*.dl=00;35:*.xcf=00;35:*.xwd=00;35:*.yuv=00;35:*.svg=00;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:</value>
+    <value type="QString" >MAIL=/var/spool/mail/armin</value>
+    <value type="QString" >MALLOC_CHECK_=2</value>
+    <value type="QString" >PATH=/usr/lib64/qt4/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/games:/usr/local/sbin:/usr/sbin:/sbin:/home/armin/kdevelop/bin:/home/armin/bin:/home/armin/kdevelop/bin</value>
+    <value type="QString" >PROFILEHOME=</value>
+    <value type="QString" >PWD=/home/armin/qtcreator/bin</value>
+    <value type="QString" >QTDIR=/usr</value>
+    <value type="QString" >QTINC=/usr/lib64/qt-3.3/include</value>
+    <value type="QString" >QTLIB=/usr/lib64/qt-3.3/lib</value>
+    <value type="QString" >QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/home/armin/.kde/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/</value>
+    <value type="QString" >SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2813,unix/unix:/tmp/.ICE-unix/2813</value>
+    <value type="QString" >SHELL=/bin/bash</value>
+    <value type="QString" >SHLVL=4</value>
+    <value type="QString" >SSH_AGENT_PID=2658</value>
+    <value type="QString" >SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/ssh-oFRbPB2455/agent.2455</value>
+    <value type="QString" >TERM=xterm</value>
+    <value type="QString" >USER=armin</value>
+    <value type="QString" >WINDOWID=31457282</value>
+    <value type="QString" >WINDOWPATH=1</value>
+    <value type="QString" >XCURSOR_THEME=default</value>
+    <value type="QString" >XDG_DATA_DIRS=/usr/share/kde-settings/kde-profile/default/share:/usr/local/share:/usr/share</value>
+    <value type="QString" >XDG_MENU_PREFIX=kde4-</value>
+    <value type="QString" >XDG_SESSION_COOKIE=2cda6ede5142b36d01097da74939cec6-1229967200.525501-1839609732</value>
+    <value type="QString" >XDM_MANAGED=method=classic</value>
+    <value type="QString" >XMODIFIERS=@im=none</value>
+    <value type="QString" >_=/home/armin/qtcreator//bin/qtcreator</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >debug</value>
+    <value type="QString" >-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool" >true</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/home/armin/src/hanoi</value>
+   <valuelist key="makeargs" type="QVariantList" >
+    <value type="QString" >debug</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-debug-cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >debug</value>
+   <valuelist key="abstractProcess.Environment" type="QVariantList" >
+    <value type="QString" >DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-gs3K3WM1Vn,guid=4da80f5b544e084bd822232949442e5c</value>
+    <value type="QString" >DESKTOP_SESSION=kde</value>
+    <value type="QString" >DESKTOP_STARTUP_ID=</value>
+    <value type="QString" >DISABLE_IMSETTINGS=1</value>
+    <value type="QString" >DISPLAY=:0.0</value>
+    <value type="QString" >DRY_RUN=1</value>
+    <value type="QString" >GDMSESSION=kde</value>
+    <value type="QString" >GDM_LANG=en_US.UTF-8</value>
+    <value type="QString" >GNOME_KEYRING_PID=2588</value>
+    <value type="QString" >GNOME_KEYRING_SOCKET=/tmp/keyring-mKI2xM/socket</value>
+    <value type="QString" >GPG_AGENT_INFO=/tmp/gpg-vYXC6B/S.gpg-agent:2861:1</value>
+    <value type="QString" >GS_LIB=/home/armin/.fonts</value>
+    <value type="QString" >GTK2_RC_FILES=/etc/gtk-2.0/gtkrc:/home/armin/.gtkrc-2.0::/home/armin/.kde/share/config/gtkrc-2.0</value>
+    <value type="QString" >GTK_IM_MODULE=gtk-im-context-simple</value>
+    <value type="QString" >GTK_RC_FILES=/etc/gtk/gtkrc:/home/armin/.gtkrc::/home/armin/.kde/share/config/gtkrc</value>
+    <value type="QString" >G_BROKEN_FILENAMES=1</value>
+    <value type="QString" >HISTSIZE=1000</value>
+    <value type="QString" >HOME=/home/armin</value>
+    <value type="QString" >HOSTNAME=blk-224-129-4.eastlink.ca</value>
+    <value type="QString" >INPUTRC=/etc/inputrc</value>
+    <value type="QString" >KDEDIRS=/usr</value>
+    <value type="QString" >KDE_FULL_SESSION=true</value>
+    <value type="QString" >KDE_IS_PRELINKED=1</value>
+    <value type="QString" >KDE_MULTIHEAD=false</value>
+    <value type="QString" >KDE_SESSION_UID=500</value>
+    <value type="QString" >KDE_SESSION_VERSION=4</value>
+    <value type="QString" >LANG=en_US.UTF-8</value>
+    <value type="QString" >LESSOPEN=|/usr/bin/lesspipe.sh %s</value>
+    <value type="QString" >LOGNAME=armin</value>
+    <value type="QString" >MAIL=/var/spool/mail/armin</value>
+    <value type="QString" >MALLOC_CHECK_=2</value>
+    <value type="QString" >PATH=/usr/lib64/qt4/bin:/usr/lib64/qt-3.3/bin:/usr/kerberos/bin:/usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin:/home/armin/bin</value>
+    <value type="QString" >PWD=/home/armin</value>
+    <value type="QString" >QTDIR=/usr</value>
+    <value type="QString" >QTINC=/usr/lib64/qt-3.3/include</value>
+    <value type="QString" >QTLIB=/usr/lib64/qt-3.3/lib</value>
+    <value type="QString" >QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/home/armin/.kde/lib64/kde4/plugins/:/usr/lib64/kde4/plugins/</value>
+    <value type="QString" >SESSION_MANAGER=local/unix:@/tmp/.ICE-unix/2950,unix/unix:/tmp/.ICE-unix/2950</value>
+    <value type="QString" >SHELL=/bin/bash</value>
+    <value type="QString" >SHLVL=2</value>
+    <value type="QString" >SSH_AGENT_PID=2795</value>
+    <value type="QString" >SSH_ASKPASS=/usr/bin/ksshaskpass</value>
+    <value type="QString" >SSH_AUTH_SOCK=/tmp/ssh-tKLYON2590/agent.2590</value>
+    <value type="QString" >TERM=dumb</value>
+    <value type="QString" >USER=armin</value>
+    <value type="QString" >USERNAME=armin</value>
+    <value type="QString" >XAUTHORITY=/var/run/gdm/auth-for-armin-GY3Fe7/database</value>
+    <value type="QString" >XCURSOR_THEME=default</value>
+    <value type="QString" >XDG_DATA_DIRS=/usr/share/kde-settings/kde-profile/default/share:/usr/local/share:/usr/share</value>
+    <value type="QString" >XDG_MENU_PREFIX=kde4-</value>
+    <value type="QString" >XDG_SESSION_COOKIE=2cda6ede5142b36d01097da74939cec6-1229205084.615286-1428336185</value>
+    <value type="QString" >XMODIFIERS=@im=none</value>
+    <value type="QString" >_=/usr/bin/kdeinit4</value>
+   </valuelist>
+   <valuelist key="abstractProcess.arguments" type="QVariantList" >
+    <value type="QString" >clean</value>
+    <value type="QString" >-w</value>
+   </valuelist>
+   <value key="abstractProcess.command" type="QString" >/usr/bin/make</value>
+   <value key="abstractProcess.enabled" type="bool" >true</value>
+   <value key="abstractProcess.workingDirectory" type="QString" >/home/armin/src/hanoi</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-release-buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >release</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-release-buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >release</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-release-buildstep2</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >release</value>
+   <valuelist key="makeargs" type="QVariantList" >
+    <value type="QString" >debug</value>
+   </valuelist>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfiguration-release-cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" >release</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildconfigurations</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >debug</value>
+   <value type="QString" >release</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>buildstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildstep1</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+   <value key="mkspec" type="QString" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildstep2</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>buildsteps</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >trolltech.qt4projectmanager.gdbmaros</value>
+   <value type="QString" >trolltech.qt4projectmanager.qmake</value>
+   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>cleanstep0</variable>
+  <valuemap type="QVariantMap" >
+   <value key="ProjectExplorer.BuildConfiguration.DisplayName" type="QString" ></value>
+   <value key="clean" type="bool" >true</value>
+  </valuemap>
+ </data>
+ <data>
+  <variable>cleansteps</variable>
+  <valuelist type="QVariantList" >
+   <value type="QString" >trolltech.qt4projectmanager.make</value>
+  </valuelist>
+ </data>
+ <data>
+  <variable>defaultFileEncoding</variable>
+  <value type="QByteArray" >System</value>
+ </data>
+ <data>
+  <variable>project</variable>
+  <valuemap type="QVariantMap" />
+ </data>
+</qtcreator>

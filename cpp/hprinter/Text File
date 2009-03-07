@@ -1,0 +1,24 @@
+ 
+void MyApp::slotSolidDeviceChanged(const QString &str)
+ {
+   qDebug() << "Device changed " << str;
+   QString filePath;
+   Solid::Device device(str);
+   Solid::DeviceInterface *deviceInterface;
+   Solid::StorageAccess *accessStorage;
+   Solid::StorageVolume *volumeStorage;
+   if (device.isValid())
+     {
+       if (device.is<Solid::StorageAccess>()) {
+     deviceInterface = device.asDeviceInterface(Solid::DeviceInterface::StorageDrive);
+
+     usbStick = device.as<Solid::StorageDrive>();
+
+     volumeStorage = device.as<Solid::StorageVolume>();
+     accessStorage = device.as<Solid::StorageAccess>();
+     qDebug() << "file path  = " << accessStorage->filePath();   //produces NULL code
+     qDebug() << "uuid = " << volumeStorage->uuid();
+     qDebug() << "Volumne Label = " << volumeStorage->label();
+  }
+	 }
+ }

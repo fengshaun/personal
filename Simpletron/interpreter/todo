@@ -1,0 +1,18 @@
+MAIN:
+  +branch function			DONE
+  +branch zero function			DONE
+  +branch negative function		DONE
+
+CALCULATOR:
+  +operations				DONE
+  +constant numbers			DONE
+  +scientific calculations		DONE
+  +trigonometry				DONE
+  +random numbers			DONE
+
+DOCUMENTATION:
+  +changing the numbers			DONE
+
+OTHER:
+  +update help section			DONE
+  +remove welcome() from --help		DONE

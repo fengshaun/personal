@@ -1,0 +1,11 @@
+                    Player 1      Player 2      Player 3
+==============================================================
+Pair               |                                          
+Two pairs          |                                          
+Three of a kind    |                                          
+Straight           |                                          
+Flush              |                                          
+Full house         |                                          
+Four of a kind     |                                          
+Straight flush     |                                          
+Royal flush        |                                          

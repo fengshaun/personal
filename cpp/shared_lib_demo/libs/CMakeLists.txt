@@ -1,0 +1,2 @@
+add_library(pluginmanager SHARED pluginmanager.cpp)
+target_link_libraries(pluginmanager boost_filesystem dl)

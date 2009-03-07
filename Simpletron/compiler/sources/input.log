@@ -1,0 +1,77 @@
+starting main
+checking arguments
+assigning file names
+making compiler object
+compiling compiler.compile()
+while: getting lines
+processStatement()
+tokenizing processStatement argument
+printing contents of m_tokens: '10' 'input' 'a' 
+the value of m_tokens[ 0 ]: 10
+the value of lineNStr is: 0x7fffc3171370
+making line number symbol: 10
+it's an input command
+the value of m_tokens[ 2 ] is: a
+making string stream varStr for m_tokens[ 2 ]
+making vC ( char v ), and varStr >> vC
+the value of 'v': 97
+starting to search for the variable
+checking if statement for symbolTable[ 0 ]->symbol()
+checking if statement for symbolTable[ 1 ]->symbol()
+symbol a not found
+making new symbol: a : 97
+clearing line: line = ""
+clearing m_tokens vector
+processStatement()
+tokenizing processStatement argument
+printing contents of m_tokens: '11' 'assign' 'b' '2' 
+the value of m_tokens[ 0 ]: 11
+the value of lineNStr is: 0x7fffc3171370
+making line number symbol: 11
+it's an assignment
+making vC ( char v ), and varStr >> vC
+the value of 'v': 98
+starting to search for the variable
+checking if statement for symbolTable[ 0 ]->symbol()
+checking if statement for symbolTable[ 1 ]->symbol()
+checking if statement for symbolTable[ 2 ]->symbol()
+checking if statement for symbolTable[ 3 ]->symbol()
+symbol b not found
+making new symbol: b : 98
+clearing line: line = ""
+clearing m_tokens vector
+processStatement()
+tokenizing processStatement argument
+printing contents of m_tokens: '20' 'print' 'a' 
+the value of m_tokens[ 0 ]: 20
+the value of lineNStr is: 0x7fffc3171370
+making line number symbol: 20
+it's a print command
+making string stream varStr from m_tokens[ 2 ] : a
+searching for symbol: 97
+symbol found, pushing 11 * 100 + 99 
+clearing line: line = ""
+clearing m_tokens vector
+processStatement()
+tokenizing processStatement argument
+printing contents of m_tokens: '21' 'print' 'b' 
+the value of m_tokens[ 0 ]: 21
+the value of lineNStr is: 0x7fffc3171370
+making line number symbol: 21
+it's a print command
+making string stream varStr from m_tokens[ 2 ] : b
+searching for symbol: 98
+symbol found, pushing 11 * 100 + 98 
+clearing line: line = ""
+clearing m_tokens vector
+processStatement()
+tokenizing processStatement argument
+printing contents of m_tokens: '99' 'end' 
+the value of m_tokens[ 0 ]: 99
+the value of lineNStr is: 0x7fffc3171370
+making line number symbol: 99
+it's end
+clearing line: line = ""
+clearing m_tokens vector
+flush output
+Done!
