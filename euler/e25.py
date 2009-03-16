@@ -9,10 +9,12 @@ def xfib():
         b = c
         yield c
 
-if __name__ == '__main__':
+def solve():
     count = 1
     for i in xfib():
         if len(str(i)) >= 1000:
-            print '%s\n%s' % (i, count)
-            break
+            return count
         count += 1
+
+if __name__ == '__main__':
+    print solve()

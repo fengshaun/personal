@@ -1,11 +1,11 @@
 from pylib import mathfn
 
 perms = []
+num = 1
 
 def permute():
     broken = False
     # appending the first digit
-    num = 1
     count_a = range(10)
     for a in count_a:
         count_b = range(10)
@@ -94,6 +94,9 @@ def permute():
             if broken: break
         if broken: break
 
+def solve():
+    print num
+
 if __name__ == '__main__':
-    permute()
-    print perms
+    print solve()
+

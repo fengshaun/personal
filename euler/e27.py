@@ -15,7 +15,7 @@ def primes_produced(a, b):
 
     return produced
 
-if __name__ == '__main__':
+def solve():
     a = 0
     b = 0
     n = 0
@@ -29,4 +29,7 @@ if __name__ == '__main__':
                     a = x
                     b = y
 
-    print a * b
+    return a * b
+
+if __name__ == '__main__':
+    print solve()

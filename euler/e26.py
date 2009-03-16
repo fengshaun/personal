@@ -7,7 +7,7 @@ such that n divides 10**k - 1 '(10**k - 1) % n'.
 it should be prime too!
 '''
 
-if __name__ == '__main__':
+def solve():
     max_p = 0
     num = 0
     for n in prime.primes_max(1000):
@@ -16,8 +16,9 @@ if __name__ == '__main__':
                 if p > max_p:
                     max_p = p
                     num = n
-                    print p
                 break
 
-    print num
+    return num
 
+if __name__ == '__main__':
+    print solve()
